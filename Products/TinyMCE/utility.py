@@ -455,7 +455,7 @@ class TinyMCE(SimpleItem):
             'dd': COMMON_ATTRS.copy(),
             'del': COMMON_ATTRS | set('cite datetime'.split()),
             'dfn': COMMON_ATTRS.copy(),
-            'div': COMMON_ATTRS | set('align'.split()),
+            'div': COMMON_ATTRS | set('align data-tile'.split()),
             'dl': COMMON_ATTRS | set('compact'.split()),
             'dt': COMMON_ATTRS.copy(),
             'em': COMMON_ATTRS.copy(),
